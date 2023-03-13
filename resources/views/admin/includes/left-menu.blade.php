@@ -41,7 +41,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ url('admin/produce-name') }}" class="nav-link {{ Request::is('admin/produce-name*') ? 'active' : '' }}">
+                    <a href="{{ urlzz('admin/produce-name') }}" class="nav-link {{ Request::is('admin/produce-name*') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-user"></i>
                         <p>Produce Name</p>
                     </a>
